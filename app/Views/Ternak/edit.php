@@ -1,0 +1,44 @@
+<h3 class="mb-5 mt-2">Edit Sapi</h3>
+
+<?= \Config\Services::validation()->listErrors() ?>
+
+<form action="/ternak/update/<?= esc($ternak['id']) ?>" method="post">
+    <?= csrf_field() ?>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+
+            <div class="mb-3">
+                <label for="kodesapi" class="form-label">Kode Sapi</label>
+                <input type="text" class="form-control" id="kodesapi" name="kode_sapi"
+                    value="<?= esc($ternak['kode_sapi']) ?>" required>
+
+            </div>
+
+
+            <div class="mb-3">
+                <label for="pemilik" class="form-label">Nama Pemilik</label>
+                <input type="text" class="form-control" id="pemilik" name="pemilik"
+                    value="<?= esc($ternak['pemilik']) ?>" required>
+
+            </div>
+
+
+            <div class="mb-3">
+                <label for="tanggalbeli" class="form-label">Tanggal Beli</label>
+                <input type="date" class="form-control" id="tanggalbeli" name="tanggal_beli"
+                    value="<?= esc($ternak['tanggal_beli']) ?>" required>
+
+            </div>
+
+
+            <div class="mb-3">
+                <label for="beratawal" class="form-label">Berat Awal</label>
+                <input type="number" class="form-control" id="beratawal" name="berat_awal" step="any"
+                    value="<?= esc($ternak['berat_awal']) ?>" required>
+
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Ubah</button>
+</form>
