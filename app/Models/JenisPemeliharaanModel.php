@@ -16,4 +16,12 @@ class JenisPemeliharaanModel extends Model
     {
         return $this->findAll();
     }
+
+    public function saveJenisPemeliharaan($data)
+    {
+        $this->save([
+            'nama_jenis' => $data['nama_jenis'],
+            'tipe' => $data['tipe']
+        ]);
+    }
 }

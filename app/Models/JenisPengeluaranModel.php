@@ -16,4 +16,11 @@ class JenisPengeluaranModel extends Model
     {
         return $this->findAll();
     }
+
+    public function saveJenisPengeluaran($data)
+    {
+        $this->save([
+            'nama' => $data['nama']
+        ]);
+    }
 }

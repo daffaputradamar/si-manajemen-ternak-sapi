@@ -37,7 +37,7 @@
                     Sapi</h5>
                 <ul class="nav nav-pills flex-sm-column flex-row mb-auto justify-content-between text-truncate">
                     <li class="nav-item mb-2">
-                        <a href="<?php echo base_url(''); ?>/pemeliharaan"
+                        <a href="<?= base_url(''); ?>/pemeliharaan"
                             class="nav-link px-2 text-truncate text-dark d-flex align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                 class="bi bi-bucket" viewBox="0 0 16 16">
@@ -48,7 +48,7 @@
                         </a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a href="<?php echo base_url(''); ?>/ternak"
+                        <a href="<?= base_url(''); ?>/ternak"
                             class="nav-link px-2 text-truncate text-dark d-flex align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                 class="bi bi-house" viewBox="0 0 16 16">
@@ -61,7 +61,7 @@
                         </a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a href="<?php echo base_url(''); ?>/pengeluaran"
+                        <a href="<?= base_url(''); ?>/pengeluaran"
                             class="nav-link px-2 text-truncate text-dark d-flex align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                 class="bi bi-cash" viewBox="0 0 16 16">
@@ -72,7 +72,7 @@
                             <span class="d-none d-sm-inline ps-3">Pengeluaran</span> </a>
                     </li>
                     <li class="nav-item mb-2">
-                        <a href="<?php echo base_url(''); ?>/pemasukan"
+                        <a href="<?= base_url(''); ?>/pemasukan"
                             class="nav-link px-2 text-truncate text-dark d-flex align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                 class="bi bi-bank" viewBox="0 0 16 16">

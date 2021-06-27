@@ -1,4 +1,8 @@
-<h3 class="mb-5 mt-2">Daftar Sapi</h3>
+<div class="d-flex justify-content-between align-items-center mb-5 mt-2">
+    <h3 class="mb-0">Daftar Sapi</h3>
+    <a class="btn btn-link" href="<?= base_url(''); ?>/jenispemeliharaan">Jenis
+        Pemeliharaan</a>
+</div>
 <h6>Sapi yang <b>Belum</b> dirawat hari ini</h6>
 <hr>
 <div class="table-responsive">
