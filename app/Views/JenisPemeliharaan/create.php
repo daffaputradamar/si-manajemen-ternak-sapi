@@ -12,7 +12,7 @@
         </div>
         <div class="col-sm-6 col-md-3 mb-3">
             <select class="form-select" aria-label="Default select example" name="tipe">
-                <option hidden selected>Pilih Jenis Pengeluaran</option>
+                <option hidden selected>Pilih Jenis Pemeliharaan</option>
                 <option value="boolean">
                     Pilihan Ya / Tidak
                 </option>
